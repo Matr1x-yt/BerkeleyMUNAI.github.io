@@ -61,8 +61,8 @@ const Main = () => {
                             <p>North Atlantic Treaty Organization (NATO)</p>
                             <img src={assets.berkeley_icon} alt="" />
                         </div>
-                        <div className="cardbvc" onClick={(e) => handleCardClick("Berkley Venture Capital (BVC)")}>
-                            <p>Berkley Venture Capital (BVC)</p>
+                        <div className="cardbvc" onClick={(e) => handleCardClick("Berkeley Venture Capital (BVC)")}>
+                            <p>Berkeley Venture Capital (BVC)</p>
                             <img src={assets.berkeley_icon} alt="" />
                         </div>
                     </div>
