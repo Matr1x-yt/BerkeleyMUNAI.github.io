@@ -73,6 +73,9 @@ const Main = () => {
                             <img src={assets.berkeley_icon} alt="" />
                         </div>
                     </div>
+                    <p className="disclaimer">
+                    This is an experimental project done by students of the Oxford Team. In no way should you rely solely on the AI for research and Rules of Procedure. If you run into issues, please refer to official documents.
+                    </p>
                 </>
                 :
                 <>
@@ -107,7 +110,7 @@ const Main = () => {
                             </div>
                         </div>
                         <p className='bottom-info'>
-                        BMUN AI might display inaccurate info so double check its response.
+                        BMUN AI might display inaccurate info so double check its response and please refer to official documents.
                         </p>
                     </div>
                 </>
