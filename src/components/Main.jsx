@@ -20,7 +20,8 @@ const Main = () => {
         renderMarkdown(); // Refreshes the markdown format
 
         // If the user has NOT scrolled up, auto-scroll
-        if (isAtBottom) {
+        if (resultContainerRef.current && isAtBottom) {
+            resultContainerRef.current.scrollTop = resultContainerRef.current.scrollHeight
             // msgEnd.current?.scrollIntoView(); // MAIN LINE FOR SCROLLING
         }
     }, [messages, resultMessage]);
