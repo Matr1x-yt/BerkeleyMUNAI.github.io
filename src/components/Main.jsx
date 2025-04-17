@@ -22,7 +22,7 @@ const Main = () => {
         // If the user has NOT scrolled up, auto-scroll
         if (resultContainerRef.current && isAtBottom) {
             resultContainerRef.current.scrollTop = resultContainerRef.current.scrollHeight
-            // msgEnd.current?.scrollIntoView(); // MAIN LINE FOR SCROLLING
+            // msgEnd.current?.scrollIntoView(); // MAIN LINE FOR SCROLLING ENTIRE WEBPAGE
         }
     }, [messages, resultMessage]);
 
